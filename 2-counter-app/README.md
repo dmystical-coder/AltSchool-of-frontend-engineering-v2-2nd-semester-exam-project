@@ -1,6 +1,6 @@
 # React + Vite
 
-This application was built with Vite, a next generation frontend tooling.
+This single page application was built with React and Vite, a next generation frontend tooling.
 
 # Custom Counter Hook Application
 

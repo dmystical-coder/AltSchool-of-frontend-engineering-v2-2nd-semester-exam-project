@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 const NotFound = () => {
     return (
-
         <div className="grid h-screen px-4 place-content-center w-screen">
             <div className="text-center">
                 <svg

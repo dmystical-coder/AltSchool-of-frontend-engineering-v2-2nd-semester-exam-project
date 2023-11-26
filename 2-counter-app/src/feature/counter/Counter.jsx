@@ -1,4 +1,4 @@
-import useCount from './useCount';
+import useCount from '../../hook/useCount';
 import * as Icon from 'react-feather';
 import { TextInput, Label, Button, Tooltip } from 'flowbite-react';
 
@@ -11,10 +11,6 @@ const CounterApp = () => {
                 <h1 className='text-4xl'>Current Value:</h1>
                 <code className='text-5xl'>{count}</code>
             </div>
-
-            <p className="text">
-
-            </p>
 
             <div className="flex justify-center items-center gap-4">
                 <Tooltip

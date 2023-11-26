@@ -4,7 +4,7 @@ This single page application was built with React and Vite, a next generation fr
 
 # Custom Counter Hook Application
 
-This application demonstrates a custom counter hook with various functionalities like increment, decrement, reset, and setValue functions, implemented with a valid user interface. It also includes pages dedicated to the custom hook, a 404 error page, and a page to test error boundary.
+This application demonstrates a custom counter hook with various functionalities like increment, decrement, reset, and setValue functions, implemented with a valid user interface. It also includes a page dedicated to the custom hook, a 404 error page, and a page to test error boundary.
 
 ## Table of Contents
 
@@ -13,7 +13,6 @@ This application demonstrates a custom counter hook with various functionalities
 - [Usage](#usage)
 - [Pages](#pages)
 - [Error Boundary Test](#error-boundary-test)
-- [License](#license)
 
 ## Features
 
@@ -49,10 +48,6 @@ The 404 error page is displayed when a user navigates to an invalid route within
 ## Error Boundary Test
 
 The error boundary test page is specifically designed to test error boundaries within the application. It contains components that may intentionally throw errors to validate the error boundary behavior and ensure proper error handling within the application.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 

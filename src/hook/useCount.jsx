@@ -7,18 +7,18 @@ const useCount = (initialCount = 0) => {
     // Set Value
     const handleSetValue = (e) => {
         e.preventDefault();
-        value ? setCount(Number(value)) : setCount(0);
+        value ? setCount(Number(value)) : setCount(prevCount => prevCount);
         setValue("");
     }
 
     // increment count
     const incrementCount = () => {
-        setCount(count + 1);
+        setCount(prevCount => prevCount + 1);
     };
 
     // decrement count
     const decrementCount = () => {
-        setCount(count - 1);
+        setCount(prevCount => prevCount - 1);
     };
 
     // reset count
